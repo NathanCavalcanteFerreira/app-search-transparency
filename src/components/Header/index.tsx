@@ -82,6 +82,10 @@ const ResponsiveAppBar = () => {
                 horizontal: "left",
               }}
               keepMounted
+              transformOrigin={{
+                vertical: "top",
+                horizontal: "left",
+              }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
